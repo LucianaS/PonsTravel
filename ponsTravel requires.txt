@@ -4,5 +4,5 @@ pons travel
 2. color de fondo
 3. color de letras
 4. familia de fuentes
-5. imagenes de destinos
+5. imagenes de destinos - AGREGUE DOS IMAGENES DE BUE (DELFI)
 6. descripciones de destinos
