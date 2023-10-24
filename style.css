@@ -1,11 +1,65 @@
-body {
-    padding-left: 3em;
-    background-color: #F6FDF6 ;
-    color: #000000;
 
-    
+/* Configuracion general de la web */
+* {  
 
-    
-
+    padding: 9px;       
+   /* letra de la web */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+body {
+/* fondo de la web */
+padding: 3% 0 3% 0; 
+background-image: url("../PonsTravel/images/PonsTravelV1.png");
+}
+
+/* forma al menu */
+#nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 2em;
+    left: 1em;
+    position: absolute;
+    width: 8em;
+    display: inline-flex;
+    
+    }
+
+#copete {
+    align-items: center;
+    font-style: italic;
+    font-size: 200%;
+    color: #b80a27;
+}
+
+h1 {
+    color:#000000;
+    font-size: 2.5em;
+}
+
+h2 {
+    color:#000000;
+    font-size: 1.875em;
+}
+
+h3 {
+    color:#000000;
+    font-size: 1.4em;
+}
+
+p {
+    color: #000000;
+    font-size: 0.875em;
+}
+
+#Inicio {
+    margin-top: 1em;
+}
+
+
+
+
+
 

@@ -6,39 +6,52 @@
     <title>Pons Travel”</title>
     <link rel="shortcut icon" href="/images/avion-PonsTravel icono.png" type="image/x-icon">
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <!--Contenido de Pons Travel Project-->
+<!--Ponemos la imagen de fondo-->
+<style>
+    body {
+        background-image: url('/images/fondoPantalla.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+</style>
+
 <header>
-    <!--Navegador-->
+    <!--Menu de navegacion-->
     <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>Destinos</li>
-            <li>Promociones</li>
-            <li>Contacto</li>
-            <li>Nosotros</li>
+        <ul id="nav">
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Destinos">Destinos</a></li>
+            <li><a href="#Promociones"></a>Promociones</li>
+            <li><a href="#Contacto"></a>Contacto</li>
+            <li><a href="#Nosotros"></a>Nosotros</li>
         </ul>
     </nav>
 </header>
 
 
+<!--1er seccion Inicio-->
 <section id="Inicio">
     
     <div id="Bienvenida">
         <h1>Bienvenida</h1>
-        <p><strong>Descubre Experiencias Inolvidables en Argentina.</strong></p>
+        <p id="copete">Descubre Experiencias Inolvidables en Argentina</p>
         <p>Nuestra plataforma en línea será un escaparate virtual que destacará la riqueza cultural, la belleza natural y las emocionantes aventuras que nuestro país tiene para ofrecer. Desde explorar destinos impresionantes hasta disfrutar de escapadas de lujo y experiencias únicas, nuestro sitio web será la puerta de entrada a un mundo de descubrimientos y aventuras. Con un enfoque en la atención excepcional al cliente y el confort en cada etapa del viaje, aspiramos a colaborar con nuestro cliente a convertirse en el destino en línea preferido de aquellos que buscan una experiencia de viaje premium dentro de nuestras fronteras. </p>
     </div>
 
-    <div id="PrincipalesPromociones">
+    <div id="PP">
         <h1>Principales Promociones</h1>
 
         <p>Lorem ipsum dolor sit amet <a href="https://www.google.com/">consectetur</a>  adipisicing elit. Libero adipisci ipsa voluptas earum suscipit repudiandae doloremque incidunt. Possimus molestiae, repudiandae culpa quisquam, perferendis at enim aut laudantium sunt sequi dolores.</p>
     </div>
  
-    <div id="PrincipalesDestinos">
+    <div id="PD">
         <h1>Principales Destinos</h1>
 
         <p>Lorem ipsum dolor sit amet <a href="https://www.google.com/">consectetur</a>  adipisicing elit. Libero adipisci ipsa voluptas earum suscipit repudiandae doloremque incidunt. Possimus molestiae, repudiandae culpa quisquam, perferendis at enim aut laudantium sunt sequi dolores.</p>
@@ -54,39 +67,49 @@
 
 </section>
 
+<br><br><br><br> 
+
+<!--2da seccion Destinos-->
 <section id="Destinos">
 
-    <div id="destino1">
+    <div id="D1">
+        <h2>Norte Argentino</h2>
 
 
     </div>
 
-    <div id="destino2">
+    <div id="D2">
+        <h2>Patagonia Argentina</h2>
+
+    </div>
+
+    <div id="D3">
+        <h2>Playas Argentinas</h2>
 
 
     </div>
 
-    <div id="destino3">
-
-
-    </div>
-
-    <div id="destino4">
+    <div id="D4">
+        <h2>Fiordos chilenos</h2>
 
 
     </div>
 
 </section>
 
-<aside>
-    <div id="RedesSociales">
+
+<!--Aqui las redes sociales a la derecha-->
+<aside id="RedesSociales">
+    <div>
         <h1>Redes Sociales</h1>
 
         <p>Lorem ipsum dolor sit amet <a href="https://www.google.com/">consectetur</a>  adipisicing elit. Libero adipisci ipsa voluptas earum suscipit repudiandae doloremque incidunt. Possimus molestiae, repudiandae culpa quisquam, perferendis at enim aut laudantium sunt sequi dolores.</p>
     </div>
 </aside>
 
+<!--3ra seccion Contacto-->
 <section id="Contacto">
+    <h1>Formulario de Contacto</h1>
         <!--formulario de contacto-->
         <form action="" method="">
             <fieldset>       
@@ -100,6 +123,7 @@
                <label for="eMail">e-Mail</label>
                <input type="email" name="mail" id="mail" required><br><br>
            </fieldset>
+
            <fieldset>
                <legend><b>Sobre mi viaje</b> </legend>
                <label for="desde">Fecha Desde</label>
@@ -128,7 +152,7 @@
                 </select>
            </fieldset>
 
-           <br> <br>
+           <br><br>
            <fieldset>
                <legend><b>Mi consulta</b> </legend>
                <legend><b>Deseo recibir informacion sobre</b></legend>
@@ -146,26 +170,31 @@
             </fieldset>
                 
            <input type="checkbox" name="condiciones" id="condiciones"><b>Acepto los términos y condiciones</b>
-           <br> <br>
+           <br> <br><br><br>
 
            <button type="reset" value="borrar">Borrar</button>
 
-           <button type="submit"><b>Enviar</b></button> <br> <br>
+           <button type="submit"><b>Enviar</b></button> 
            
-
+           <br><br>
+           
         </form>
 </section>
 
+
+<!--4ta seccion Nosotros-->
 <section id="Nosotros">
+    <h1>Nosotros</h1>
 
-    <h1>Matricula</h1>
+    <h2>Matricula</h1>
 
-    <h1>Confian en nosotros</h1>
+    <h2>Confian en nosotros</h1>
 
-    <h1>Previaje</h1>
+    <h2>Previaje</h1>
    
 </section>
 
+<!--Aqui el Pie de la Pagina-->
 <footer>
 
     <div id="Trabaja">
